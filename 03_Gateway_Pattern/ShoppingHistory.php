@@ -20,3 +20,4 @@ class ShoppingHistory
 		return $shoppingCarts;
 	}
 }
+
