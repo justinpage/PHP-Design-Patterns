@@ -1,0 +1,20 @@
+{
+    "name": "KLVTZ/08_active_object_pattern",
+    "description": "testing active object pattern",
+    "require-dev": {
+        "phpunit/phpunit": "dev-master"
+    },
+	"autoload": {
+		"files": [
+			"MultiFileUploader.php",
+			"UploaderCommand.php"
+		]
+	},
+    "authors": [
+        {
+            "name": "Justin Page",
+            "email": "xjustinpagex@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
