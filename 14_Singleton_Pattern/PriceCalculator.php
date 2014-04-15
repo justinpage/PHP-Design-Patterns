@@ -8,6 +8,6 @@ class PriceCalculator
 		$discountAsPercent = $discountProvider->getDiscount($product->getId());
 
 		$price = $product->getPrice();
-		return $price - ($price * discountAsPercent)
+		return $price - ($price * discountAsPercent);
 	}
 }
