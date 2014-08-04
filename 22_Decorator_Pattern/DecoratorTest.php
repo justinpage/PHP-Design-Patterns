@@ -3,8 +3,8 @@
 require_once 'VisaPayment.php';
 require_once 'HTMLPaymentDetails.php';
 
-class DecoratorTest PHPUnit_Framework_TestCase
-{
+class DecoratorTest extends PHPUnit_Framework_TestCase {
+
 	function testItCanProvideDescription()
 	{
 		$visaPayment = new VisaPayment();
