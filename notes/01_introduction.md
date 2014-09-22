@@ -9,7 +9,7 @@ solutions where defined. A design pattern is an accepted solution for a common
 problem. Not everyone agrees with them. Some regard some of the design patterns
 as anti-patterns. With all this in mind, these patterns are essential knowledge
 for an advanced programmer. They are well thought out, accepted, tested, and are
-at a low risk solution.
+regarded as a low risk solution.
 
 However, since 1994, computers have changed as well as solutions and concepts.
 Some updates and variations have changed. As such, Robert C. Martin designed a
@@ -28,7 +28,7 @@ The basic elements of UML is a class. This is a simple naming convention. If it
 is an interface or an abstract class, it will be noted. The type and the name of
 the class will be separated at the top whereas the methods for the bottom. We
 can then define our methods as public, protected, or even private. We can also
-define if they receive any parameters or return any type of information.
+define them if they receive any parameters or return any type of information.
 
 Agile Manifesto and Software Craftsmanship
 ------------------------------------------
