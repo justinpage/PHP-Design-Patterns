@@ -8,6 +8,9 @@ encourages single responsibility. By doing so, we recognize that this pattern is
 good when the object doesn't have to reuse an object nor does it have to be
 concern how it creates another object.
 
+**Factory Pattern**
+![The Factory Pattern]()
+
 The factory method begins with us creating a `ShoppingCart` class. We create a
 products in cart array as well as a private variable to inject an instance of
 dependency. Our constructor, when creating the shopping cart, allows us to
