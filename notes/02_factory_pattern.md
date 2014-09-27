@@ -9,7 +9,7 @@ good when the object doesn't have to reuse an object nor does it have to be
 concern how it creates another object.
 
 **Factory Pattern**
-![The Factory Pattern]()
+![The Factory Pattern](https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/04_factory_pattern.svg)
 
 The factory method begins with us creating a `ShoppingCart` class. We create a
 products in cart array as well as a private variable to inject an instance of
