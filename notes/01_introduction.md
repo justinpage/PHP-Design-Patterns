@@ -30,7 +30,7 @@ the class will be separated at the top whereas the methods for the bottom. We
 can then define our methods as public, protected, or even private. We can also
 define them if they receive any parameters or return any type of information.
 
-![Interface Example](/notes/images/01_interface_example.svg?raw=true)
+![Interface Example](https://rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/01_interface_example.svg)
 
 Agile Manifesto and Software Craftsmanship
 ------------------------------------------
