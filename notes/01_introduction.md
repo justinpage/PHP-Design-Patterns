@@ -32,6 +32,9 @@ define them if they receive any parameters or return any type of information.
 
 ![Interface Example](https://rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/01_interface_example.svg)
 
+![Class A uses Class B](https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/02_class_a_uses_class_b.svg)
+
+![Interface Example](https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/03_class_a_creates_class_b.svg)
 Agile Manifesto and Software Craftsmanship
 ------------------------------------------
 The late 1990s where at a historical low. More than 80% of projects were
