@@ -1,10 +1,7 @@
 <?php
 
 /**
- * undocumented class
- *
- * @package default
- * @author Me
+ * Cart Gateway
  */
 interface CartGateway
 {
