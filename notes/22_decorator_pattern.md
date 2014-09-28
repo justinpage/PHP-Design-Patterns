@@ -6,10 +6,13 @@ classes. But it was complex.
 
 The decorator pattern fools the client to be using a payment method. As define
 originally, however, it will use a decorator pattern. Something a client
-expected but is actually provided by a PayPal or visa payment object. This is
+expected but is actually provided by a PayPal or Visa payment object. This is
 done by providing a reference of the payment method. In turn a display of
 details will extend a decorator, allowing the default functionality and
 additional features by extension.
+
+**Decorator Pattern**
+![The Decorator Pattern](https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/04_factory_pattern.svg)
 
 In this example, we will be using TDD as a client to which it will grab a
 description. Whether that description is directly provided through a callback
