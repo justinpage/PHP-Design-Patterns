@@ -12,7 +12,7 @@ details will extend a decorator, allowing the default functionality and
 additional features by extension.
 
 **Decorator Pattern**
-![The Decorator Pattern](https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/04_factory_pattern.svg)
+![The Decorator Pattern](https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/26_decorator_pattern.svg)
 
 In this example, we will be using TDD as a client to which it will grab a
 description. Whether that description is directly provided through a callback
