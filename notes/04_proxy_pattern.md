@@ -43,7 +43,7 @@ class ShoppingCart implements Cart
 Next, within our proxy, we define the actual logic and safe guard our instances
 through a slight different implementation of another pattern, the singleton
 pattern. But, for now, we will cover the logic behind the proxy. When the Cart
-Proxy us used by another object, we are using a new instance or a recently
+Proxy is used by another object, we are using a new instance or a recently
 created instance of a cart. Notice that we check to make sure that the shopping
 cart is empty. If it is, we create a new instance. From here, we could use a
 gateway pattern to further abstract the implementation of the interface itself.
