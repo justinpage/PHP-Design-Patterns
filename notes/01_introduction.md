@@ -3,17 +3,17 @@ Agile Design Patterns
 
 What are Design Patterns?
 -------------------------
-On October 1994, when four programmers from IBM published a book on Design
-Patterns, they became known as the big four. A set of twenty-three problems and
-solutions where defined. A design pattern is an accepted solution for a common
-problem. Not everyone agrees with them. Some regard some of the design patterns
+Four programmers from IBM published a book on Design Patterns in October of 1994
+that led them to be known as the Big Four. A defined set of twenty-three
+problems and solutions. A design pattern is an accepted solution for a common
+problem. Not everyone agrees with them. Some regard a few of the design patterns
 as anti-patterns. With all this in mind, these patterns are essential knowledge
-for an advanced programmer. They are well thought out, accepted, tested, and are
+for an advanced programmer. They are well-thought out, accepted, tested, and 
 regarded as a low risk solution.
 
-However, since 1994, computers have changed as well as solutions and concepts.
-Some updates and variations have changed. As such, Robert C. Martin designed a
-book to meet these needs through an agile process.
+However, since 1994, computers have changed as well as their solutions and
+concepts. Some updates and variations have changed. As such, Robert C. Martin
+designed a book to meet these needs through an agile process.
 
 This course will work through about twenty implementations of Agile Design
 Patterns. Each will discuss what it is, how it works, how to implement it, and
@@ -59,7 +59,7 @@ craftsmanship never formalized until recently. In march 2009, the manifesto was
 related. In pursuit of the items on the left, they have found items on the right
 to be indispensable:
 
-- Not only working software, but also **well-crafted software**
-- Not only responding to change, but also **steadily adding value**
 - Not only individuals and interactions, but also **community of professionals**
+- Not only working software, but also **well-crafted software**
 - Not only customer collaboration, but also **productive partnerships**
+- Not only responding to change, but also **steadily adding value**
