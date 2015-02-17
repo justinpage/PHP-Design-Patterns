@@ -7,4 +7,4 @@ Notes
 -----
 For an in-depth discussion of each pattern, please read [notes][notes].
 
-[notes]: https://github.com/KLVTZ/PHP-Design-Patterns/blob/master/notes
+[notes]: ./notes
