@@ -3,7 +3,7 @@ The Factory Pattern
 This pattern allows us to separate the actions of one product from another.
 That is, the separation of concern from multiple classes. This allows us to
 decouple the necessary objects and methods from one class to another. Moreover,
-this allows each method be concern with one action. The factory pattern
+this allows each method to be concern with one action. The factory pattern
 encourages single responsibility. By doing so, we recognize that this pattern is
 good when the object doesn't have to reuse an object nor does it have to be
 concern how it creates another object.
