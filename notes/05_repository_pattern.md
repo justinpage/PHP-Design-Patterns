@@ -10,4 +10,4 @@ In the case of querying for data and information, is as follows:
 **Repository Pattern**
 ![Repository Pattern][repo-pattern]
 
-[repo-pattern]: https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/07_repository_pattern.svg
+[repo-pattern]: https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/0ae7bdbc7d8ce419a287508e617532d8c37edda7/notes/images/07_repository_pattern.svg
