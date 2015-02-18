@@ -1,5 +1,7 @@
 <?php
 
+require_once './ProductType.php';
+
 class TypesFactory
 {
 	function makeFrom($typeData = [])
