@@ -43,7 +43,7 @@ and an image link will be empty.
 The advantage of the Null Pattern allows us to safely consider illegitimate
 objects that are available. In many ways, its a default object to be returned if
 none others are found. You may want to implement the repository pattern if you
-find yourself having to constantly asking you client whether they are checking
+find yourself having to constantly ask your client whether they are checking
 to see if a certain object has returned.
 
 First, within our test, we create a new object of `Reciept`. This receipt object
