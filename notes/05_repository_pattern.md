@@ -23,6 +23,7 @@ through the gateway. This done through the repository channel upstream to the
 gateway. In some situations, the gateway can have real objects, but transforming
 them in real-data is common practice:
 
+**Repository Pattern via persistence**
 ![Repository Pattern via persistence][repo-pattern-pers]
 [repo-pattern-pers]: https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/07_02_repository_pattern.svg
 
