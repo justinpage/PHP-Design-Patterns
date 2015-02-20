@@ -20,5 +20,5 @@ and an image link will be empty.
 
 **Null Pattern**
 ![Null Pattern][null-pattern]
-[null-pattern]: 
+[null-pattern]: https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/08_null_pattern.svg
 
