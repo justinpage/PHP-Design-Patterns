@@ -139,6 +139,8 @@ list, the most recent is called and executed. For an undo, we would undo
 whatever was on that list.
 
 [Interface]: https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/09_command_pattern.svg 
+
 [Sensor]: https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/09_02_command_pattern.svg
+
 [Payment]: https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/09_03_command_pattern.svg
 
