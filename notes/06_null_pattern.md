@@ -66,10 +66,10 @@ class NullObjectPatternTest extends PHPUnit_Framework_TestCase
 
 		$product = new Keyboard();
 		$receipt->addToTotal($product);
+		$receipt->addProductById(1);
 
 		$this->assertEquals(50, $receipt->getTotalPrice());
 
-		$receipt->addProductById(1);
 	}
 }
 ```
@@ -142,21 +142,26 @@ class ProductProvider
 ```
 ```php
 <?php
-require_once 'NullProduct.php';
 
-/**
- * Provides products of different types
- * This may be a gateway, a repository or a database access layer. Doesn't matter
- */
-class ProductProvider
+// this is neutral from the logical point of view
+// because it isn't using null
+class NullProduct implements Product
 {
-	function findProduct($id)
+	public function getDescription()
 	{
-		// see if the identifier matches a certain instance
-		if($id === 0) return new Keyboard();
-
-		return new NullProduct();
+		return '';
 	}
+
+	public function getPicture()
+	{
+		return '/img/default.png';
+	}
+
+	public function getPrice()
+	{
+		return 0;
+	}
+
 }
 ```
 

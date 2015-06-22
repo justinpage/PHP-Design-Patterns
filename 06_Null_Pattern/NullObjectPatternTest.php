@@ -22,12 +22,12 @@ class NullObjectPatternTest extends PHPUnit_Framework_TestCase
 	function testReceiptCanAddProductsToItTotal()
 	{
 		$receipt = new Receipt();
-
 		$product = new Keyboard();
+
 		$receipt->addToTotal($product);
+		$receipt->addProductById(1);
 
 		$this->assertEquals(50, $receipt->getTotalPrice());
 
-		$receipt->addProductById(1);
 	}
 }
