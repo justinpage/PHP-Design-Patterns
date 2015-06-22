@@ -138,7 +138,7 @@ function in many interfaces. The command object, after executing are put on a
 list, the most recent is called and executed. For an undo, we would undo
 whatever was on that list.
 
-[Interface]: 
-[Sensor]:
-[Payment]:
+[Interface]: https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/09_command_pattern.svg 
+[Sensor]: https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/09_02_command_pattern.svg
+[Payment]: https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/09_03_command_pattern.svg
 
