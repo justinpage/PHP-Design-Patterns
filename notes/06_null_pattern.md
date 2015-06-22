@@ -1,4 +1,3 @@
-Null Pattern
 ============
 One of the most interesting patterns is the Null Pattern. Before we delve into
 this pattern, let us look at the behavior of null.
@@ -38,7 +37,6 @@ and an image link will be empty.
 
 **Null Pattern**
 ![Null Pattern][null-pattern]
-[null-pattern]: https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/08_null_pattern.svg
 
 The advantage of the Null Pattern allows us to safely consider illegitimate
 objects that are available. In many ways, its a default object to be returned if
@@ -172,3 +170,5 @@ The Null pattern is effective for providing a fall back design if the client
 interacts with our application and encounters invalid objects --one that doesn't
 exist. This provides an easy way to implement any sort of logic behind the
 scenes while providing fall-back.
+
+[null-pattern]: https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/08_null_pattern.svg
