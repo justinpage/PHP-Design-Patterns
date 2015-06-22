@@ -10,12 +10,12 @@ without the client ever knowing about it.
 
 Then, we can imagine a sensor that listens for an event to occur in order for the
 implementation of an interface to execute a method base on that event.
-[sensor][Sensor]
+![sensor][Sensor]
 
 For example, we can use it to process a payment for an online web shop
 application. A Process Payment class will ask a user class to provide a payment
 method, this command will execute without the client knowing about it.
-[payment][Payment]
+![payment][Payment]
 
 Let us begin with the `ProcessPayment` class. We requiem a user, a payment
 method, and a payment processing exception. We then call the process of a user
