@@ -121,4 +121,5 @@ checking until we have uploaded both files.
 As you can see, this gives us power to each of our objects because it allows our
 application to multi-task between two active objects that contain their own
 commands.
-[Active]: 
+
+[Active]: https://cdn.rawgit.com/KLVTZ/PHP-Design-Patterns/master/notes/images/10_active_object_pattern.svg
