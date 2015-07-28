@@ -17,7 +17,7 @@ application. A Process Payment class will ask a user class to provide a payment
 method, this command will execute without the client knowing about it.
 ![payment][Payment]
 
-Let us begin with the `ProcessPayment` class. We requiem a user, a payment
+Let us begin with the `ProcessPayment` class. We require a user, a payment
 method, and a payment processing exception. We then call the process of a user
 payment. This requires us to create a user object base on their username. Now
 our user object has the ability to grab a payment method. This can either be set
@@ -129,6 +129,20 @@ payment methods error along with a message. Keep in mind that creating a new
 payment processing requires loading it into memory and having the constructor
 for the payment processing exception send its message to the parent static
 constructor.
+
+
+**Payment Processing Exception**
+```php
+<?php
+
+class PaymentProcessingException extends Exception
+{
+	public function __construct($message)
+	{
+		parent::__construct($message);
+	}
+}
+```
 
 
 The command pattern opens a door to solving solutions in payments. All payments
