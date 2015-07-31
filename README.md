@@ -10,5 +10,6 @@ For an in-depth discussion of each pattern, please read [notes][notes].
 Update
 ------
 07/28/2015: I will do my best to add new notes on each pattern every morning.
+Obviously I will not meet this goal due to other projects.
 
 [notes]: ./notes
